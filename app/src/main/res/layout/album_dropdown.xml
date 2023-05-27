@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:text="Album dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/albumSpinner"
+        android:layout_width="381dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/moveToButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Move To" />
+
+            <Button
+                android:id="@+id/cancelAlbumButton"
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:text="Cancel" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
